@@ -27,6 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Move folder to ayman-testcontainers  
+      run: cd ayman-testcontainers
+    - name: Build ayman-testcontainers with Maven
       run: mvn clean install
 
