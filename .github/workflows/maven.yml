@@ -34,7 +34,9 @@ jobs:
     - name: Move folder to ayman-testcontainers  
       run: cd ayman-testcontainers
     - name: ls ayman-testcontainers  
-      run: ls      
+      run: ls  
+    - name: pwd ayman-testcontainers  
+      run: pwd      
     - name: Build ayman-testcontainers with Maven
       run: mvn clean install
 
