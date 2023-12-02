@@ -27,10 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: ls ayman-testcontainers  
-      run: ls  
-    - name: pwd ayman-testcontainers  
-      run: pwd           
+    - name: cd to root
+      run: cd "$(dirname ${0})"           
     - name: Move folder to ayman-testcontainers  
       run: cd ayman-testcontainers
     - name: ls ayman-testcontainers  
