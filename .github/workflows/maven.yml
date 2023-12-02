@@ -29,6 +29,8 @@ jobs:
         cache: maven
     - name: Move folder to ayman-testcontainers  
       run: cd ayman-testcontainers
+    - name: ls ayman-testcontainers  
+      run: ls
     - name: Build ayman-testcontainers with Maven
       run: mvn clean install
 
