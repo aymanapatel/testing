@@ -1,0 +1,55 @@
+= Gatling Learning
+:toc:
+:icons: font
+Ayman Patel
+:source-dir: src/gatling/java
+:resource-dir: src/gatling/resources
+
+
+== Running
+
+
+=== 1. Run link:{source-dir}/Recorder.java[Recorder]
+=== 2. Run link:{source-dir}/Engine.java[Engine]
+
+WARNING: Add `gatling.core.runDescription` in link:{resource-dir}/gatling.conf}[gaitling.conf] so that you don't have to press enter
+
+
+== Building blocks
+
+
+== 1. link:{source-dir}/Recorder.java[Recorder]
+
+== 2. link:{source-dir}/Engine.java[Engine]
+
+== 3. Resources
+
+=== gatling.conf
+
+=== recorder.conf
+
+== 4. link:{source-dir}/IDEPathHelper.java[IDEPathHelper]
+
+Simple helper for configuring and throwing any exception while starting Gatling
+
+
+== Export
+
+=== Graphite
+
+=== Grafana
+
+
+
+==== Installing Grafana Locally
+
+
+> Data sources include *InfluxDB, Graphite, Kafka, Gatling, JMeter .etc*
+
+1. https://grafana.com/docs/grafana/latest/setup-grafana/installation/redhat-rhel-fedora/[Fedora Install]
+
+
+==== Grafaa Cloud (Paid)
+
+
+
