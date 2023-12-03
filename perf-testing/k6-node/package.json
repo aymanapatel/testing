@@ -1,0 +1,11 @@
+{
+  "name": "k6-node",
+  "version": "1.0.0",
+  "description": "Perf testing using K6 by Grafana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayman Patel",
+  "license": "ISC"
+}

@@ -1,0 +1,42 @@
+= K6 Testing
+:toc: 
+:toclevels: 2
+:icons: font
+
+
+== Installation
+
+
+1. Install https://k6.io/docs/get-started/installation/[K6 Binary]. 
+   - K6 is a CLI
+2. Install K6 via `npm i`
+
+
+== Commands
+
+
+=== Simple K6 Run 
+
+
+```
+k6 run script.js
+```
+
+=== JSON Output
+
+
+```
+k6 run script.js --out json=k6_json_output.json
+```
+
+
+== Prometheus in Grafana Cloud
+
+
+```
+K6_PROMETHEUS_RW_USERNAME=<iser-name> \
+K6_PROMETHEUS_RW_PASSWORD=<token> \
+K6_PROMETHEUS_RW_SERVER_URL=<server-url> \
+k6 run -o experimental-prometheus-rw script.js
+
+```
